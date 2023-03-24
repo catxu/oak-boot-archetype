@@ -9,13 +9,13 @@
         <fileSet encoding="UTF-8">
             <directory></directory>
             <includes>
-                <include>README.md</include>
                 <include>.gitignore</include>
             </includes>
         </fileSet>
         <fileSet filtered="true" encoding="UTF-8">
             <directory></directory>
             <includes>
+                <include>README.md</include>
                 <include>pom.xml</include>
             </includes>
         </fileSet>
@@ -71,6 +71,22 @@
             </fileSets>
         </module>
         <module id="${rootArtifactId}-biz" dir="__rootArtifactId__-biz" name="${rootArtifactId}-biz">
+            <fileSets>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/main/java</directory>
+                    <includes>
+                        <include>**/*.java</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                    <includes>
+                        <include>**/*.xml</include>
+                    </includes>
+                </fileSet>
+            </fileSets>
+        </module>
+        <module id="${rootArtifactId}-integration" dir="__rootArtifactId__-integration" name="${rootArtifactId}-integration">
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>
