@@ -4,7 +4,7 @@ Base on maven-archetype-plugin built a DDD template project, for standardize pro
 
 ## 创建项目
 
-    mvn archetype:generate  -DarchetypeGroupId=com.oak.archetype  -DarchetypeArtifactId=oak-boot-archetype -DarchetypeVersion=1.0-SNAPSHOT  -DgroupId=com.oak.{projectName} -DartifactId={projectName} -Dversion=1.0.0-SNAPSHOT
+    mvn archetype:generate  -DarchetypeGroupId=com.oak.archetype  -DarchetypeArtifactId=oak-boot-archetype -DarchetypeVersion=1.0.0-SNAPSHOT  -DgroupId=com.oak.{projectName} -DartifactId={projectName} -Dversion=1.0.0-SNAPSHOT
 
 **参数说明:**
 
